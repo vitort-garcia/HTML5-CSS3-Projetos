@@ -1,0 +1,34 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Old';
+    src: url(fonts/Olondona.otf) format('opentype'), url(fonts/Olondon_.otf) format('opentype'), url(fonts/OldLondon.ttf) format('truetype');
+    font-style: normal;            
+    /*
+        format's:
+        - opentype (.otf)
+        - truetype (.ttf)
+        - embedded-opentype
+        - truetype-aat (Apple Advanced Typography)
+        - svg
+    */
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(167, 255, 164);
+}
+
+h1#nome{
+    font-family: 'Old', serif;
+    font-size: 3em;
+    text-align: center;
+    background-color: rgb(75, 184, 124);
+}
+
+h1{
+    font-family: 'Old', serif;
+    font-size: 3em;
+}
+p{
+    text-align: justify;
+}
