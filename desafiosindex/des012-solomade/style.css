@@ -55,6 +55,10 @@ section p{
     padding-left: 30px;
 }
 
+div{
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.486);
+}
+
 div#fotofundo1{
     background: black url(imagens/background001.jpg) center center no-repeat fixed;
     background-size: cover;
@@ -72,6 +76,7 @@ div p{
     background-color: rgba(0, 0, 0, 0.404);
     color: white;
     padding: 5px;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.445);
 }
 
 footer{
