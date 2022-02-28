@@ -68,10 +68,10 @@ div#fotofundo2{
 }
 
 div p{
-    width: 42vw;
+    display: inline-block;
     background-color: rgba(0, 0, 0, 0.404);
     color: white;
-    padding: 0px;
+    padding: 5px;
 }
 
 footer{
